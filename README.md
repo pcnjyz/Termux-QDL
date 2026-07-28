@@ -27,7 +27,7 @@ git clone https://github.com/pcnjyz/Termux-QDL.git
 cd Termux-QDL
 ```
 ```console
-chmod +x qdl
+su
 ```
 
 ## 运行工具
