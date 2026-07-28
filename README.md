@@ -4,7 +4,7 @@ Flash Qualcomm CPU Based Mobile Phones Using Termux ```Without PC```
 
 ## installation :- 
 
-```Install``` [termux](https://f-droid.org/repo/com.termux_1021.apk) & [termux api](https://f-droid.org/repo/com.termux.api_1000.apk) &[ADBify](https://play.google.com/store/apps/details?id=com.rv882.adbify)
+```Install``` [termux](https://f-droid.org/repo/com.termux_1021.apk)、[termux api](https://f-droid.org/repo/com.termux.api_1000.apk)、[ADBify](https://play.google.com/store/apps/details?id=com.rv882.adbify)
 ```apk```
 ```console
 pkg update && upgrade -y
