@@ -3,7 +3,7 @@
 
 ##.安装 :- 
 
-```Install``` [termux](https://f-droid.org/repo/com.termux_1021.apk)、[termux api](https://f-droid.org/repo/com.termux.api_1000.apk)、[ADBify](https://play.google.com/store/apps/details?id=com.rv882.adbify)
+```下载安装``` [termux](https://f-droid.org/repo/com.termux_1021.apk)、[termux api](https://f-droid.org/repo/com.termux.api_1000.apk)&[ADBify](https://play.google.com/store/apps/details?id=com.rv882.adbify)
 ```apk```
 ```console
 pkg update && pkg upgrade -y
