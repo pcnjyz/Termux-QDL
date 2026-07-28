@@ -37,7 +37,7 @@ chmod +x qdl
 
 
 ## 注意 :-
-after Run this tool useg Details show in screen set your files location acording to useg details.
+运行此工具后，屏幕上会显示使用详情，请根据使用详情设置文件位置。
 
 like this - ```sudo ./qdl --debug --storage emmc --include [flash file folder location] [prog_firhouse_xx.mbn file location] [rawprogram.xml file location] [patch.xml file location]```
 
@@ -52,4 +52,4 @@ like this - ```sudo ./qdl --debug --storage emmc --include [flash file folder lo
 
 ./qdl /storage/emulated/0/images/DevprgProgrammer2.elf /storage/emulated/0/images/rawprogram*.xml /storage/emulated/0/images/patch*.xml
 
-after Set commands Connect Terget Device to 9008 edl mode using Otg & Data cable.
+设置命令后，使用 OTG 和数据线将目标设备连接到 9008 edl 模式。
