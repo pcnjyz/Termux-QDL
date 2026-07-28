@@ -1,5 +1,5 @@
 ## Termux-QDL
-Flash Qualcomm基于CPU的移动电话使用Termux''不带PC'or'（此工具仅在''arm'64''架构Termux支持的移动中运行）Root需要
+使用 Termux 为基于高通 CPU 的手机刷机Without PC （此工具仅适用于arm64支持 Termux 的手机架构），需要 Root 权限.
 
 ##.安装 :- 
 
@@ -39,14 +39,15 @@ chmod +x qdl
 ## 注意 :-
 运行此工具后，屏幕上会显示使用详情，请根据使用详情设置文件位置。
 
-like this - ```sudo ./qdl --debug --storage emmc --include [flash file folder location] [prog_firhouse_xx.mbn file location] [rawprogram.xml file location] [patch.xml file location]```
+像这样 - ```sudo ./qdl --debug --storage emmc --include [flash file folder location] [prog_firhouse_xx.mbn file location] [rawprogram.xml file location] [patch.xml file location]```
 
-不要在命令行上加上这个 ```[ ]``` .
+[ ]请勿在命令行中添加此项.
 
 ./qdl --debug --storage emmc --include /storage/emulated/0/images /storage/emulated/0/images/prog_firhouse_lite.elf /storage/emulated/0/images/rawprogram*.xml /storage/emulated/0/images/patch*.xml 
 
- ./qdl --debug --storage ufs --include /storage/emulated/0/images /storage/emulated/0/images/prog_ufs_firhouse_sm8250_ddr_5.elf /storage/emulated/0/images/rawprogram*.xml /storage/emulated/0/images/patch*.xml
+##下列样式
 
+ ./qdl --debug --storage ufs --include /storage/emulated/0/images /storage/emulated/0/images/prog_ufs_firhouse_sm8250_ddr_5.elf /storage/emulated/0/images/rawprogram*.xml /storage/emulated/0/images/patch*.xml
 
 ./qdl /storage/emulated/0/images/DevprgProgrammer2.elf /storage/emulated/0/images/rawprogram0.xml /storage/emulated/0/images/rawprogram1.xml /storage/emulated/0/images/rawprogram2.xml /storage/emulated/0/images/rawprogram3.xml /storage/emulated/0/images/rawprogram4.xml /storage/emulated/0/images/rawprogram5.xml /storage/emulated/0/images/patch0.xml /storage/emulated/0/images/patch1.xml /storage/emulated/0/images/patch2.xml /storage/emulated/0/images/patch3.xml /storage/emulated/0/images/patch4.xml /storage/emulated/0/images/patch5.xml
 
